@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tier-list-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#addCardDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addCard{
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(56, 56, 56);
+    width: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+
+#addCardText{
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: rgb(75, 75, 75);
+}
+
+#addCardDiv:hover #addCardText{
+    opacity: 1;
+}
+
+.card-image{
+    width: 100%;
+    height: 85px;
+    pointer-events: none;
+}
+#board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80vw;
+    height: 58vh;
+    background-color: rgb(39, 39, 39);
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(56, 56, 56);
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    background-color: green;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+
+#bank{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 300px;
+    background-color: rgb(56, 56, 56);
+}

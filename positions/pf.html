@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../tierList.css">
+    <link rel="icon" href="../images/basketball_icon.png">
+</head>
+<body>
+
+    
+    <div class="position-content-container">
+        <div>
+            <p class="header">Power Forward</p>
+            <p class="header smaller-header">(all of the information is taken from wikipedia.org)</p>
+            <div class="all-text">
+                <div class="paragraph">
+                    The power forward (PF), also known as the four, often plays a role similar to that of the center, down in the "post" or "low blocks". The power forward is often the team's most powerful and dependable scorer, being able to score close to the basket while also being able to shoot mid-range jump shots from 10 – 15 feet from the basket. Power forwards are also very crafty and have to be versatile on both offense and defense but not as much as a small forward. Power forwards usually have good footwork in the paint and are able to force players into bad shots or blocking shots when guarding the paint.[11] Some power forwards have become known as stretch fours, since extending their shooting range to three-pointers. On defense, they are required to have the strength to guard bigger players close to the basket and to have the athleticism to guard quick players away from the basket. Most power forwards tend to be more versatile than centers since they can be part of plays and are not always in the low block. A tall power forward over 6 feet 8 inches (2.03 m) can be a forward-center, playing PF and C. A smaller power forward, approximately 6 feet 7 inches (2.01 m), can play combo forward, playing SF part-time. In the NBA, power forwards usually range from 6 feet 7 inches (2.01 m) to 7 feet 0 inches (2.13 m).[12]
+                    <img src="../images/pf_2.png" class="image-in-paragraph">
+                </div>
+                <div class="paragraph">
+                    The power forward is essentially a bigger and stronger version of the small forward but not generally as tall or as long as the center. Generally speaking, the power forward is usually good at rebounding and in some instances, a power forward with a high basketball IQ could also be a great passer, particularly from the high or low post areas via post split action. Giannis Antetokounmpo or Dirk Nowitzki are notable examples of power forwards.[8] Instead of a physical power forward, the stretch four is known primarily for shooting three-pointers and midrange jumpshots instead of post play. The stretch four could also be very useful as a pick and pop screener, especially against the drop coverage defensive technique. For example, if the stretch four pops to the perimeter after setting a screen, then their defender will most likely not have enough time to closeout and contest the potential open jump shot if the defender executes drop coverage.[8] Even if the Power forward cannot shoot, being a screener can also set up a mismatch for them or their teammates to try and score on the other team big man if they switch.[11]
+                    <img src="../images/pf_3.jfif" class="image-in-paragraph">
+                </div>
+        </div>
+        
+        <div>
+                <span class="tier-list-header">
+                    <p class="header smaller-header">Tier List of All-time PG</p>
+                    <div id="addCardDiv">
+                        <button id="addCard">+</button>
+                        <p id="addCardText">Add Card</p>
+                    </div>
+                </span>
+                <div id="board">
+                    <div class="row">
+                        <div class="label">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">A</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">B</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">C</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">F</div>
+                    </div>
+                </div>
+                <div id="bank">
+                    <div class="card" id="aldridge" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/aldridge.jfif"></div>    
+                    <div class="card" id="antetokounmpo" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/antetokounmpo.jfif"></div>     
+                    <div class="card" id="barkley" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/barkley.jfif"></div>   
+                    <div class="card" id="bosh" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/bosh.jfif"></div>   
+                    <div class="card" id="davis" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/davis.jfif"></div> 
+                    <div class="card" id="debusschere" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/debusschere.jfif"></div>     
+                    <div class="card" id="duncan" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/duncan.jfif"></div>   
+                    <div class="card" id="garnett" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/garnett.jfif"></div>  
+                    <div class="card" id="gasol" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/gasol.jfif"></div>    
+                    <div class="card" id="green" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/green.jfif"></div> 
+                    <div class="card" id="hayes" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/hayes.jfif"></div>   
+                    <div class="card" id="lucas" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/pf/lucas.jfif"></div>     
+                </div>
+        </div>
+    </div>
+    <script src="../cards.js"></script>
+    <script src="../rows.js"></script>
+    <script src="../bank.js"></script>
+</body>
+</html>

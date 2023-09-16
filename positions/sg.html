@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../tierList.css">
+    <link rel="icon" href="../images/basketball_icon.png">
+</head>
+<body>
+
+    
+    <div class="position-content-container">
+        <div>
+            <p class="header">Shooting Guard</p>
+            <p class="header smaller-header">(all of the information is taken from wikipedia.org)</p>
+            <div class="all-text">
+                <div class="paragraph">
+                    The shooting guard (SG)—also known as the two or the off guard—is, along with the small forward, often referred to as a wing because of its use in common positioning tactics. As the name suggests, most shooting guards are prolific from three-point range and long mid-range. A key aspect of being a shooting guard is having the ability to patiently and methodically circulate the three-point line with the ball. This allows the ability to correctly get into open space for other positions handling the ball. Just like all positions in basketball, the ability to communicate efficiently with teammates is key. If teammates do not know when or where a player will be open, they won't be able to deliver the ball when an opportunity presents itself. Most of these skills depends on whether the shooting guard is a good shooter, a finisher around the rim, a defender, or different combinations of these.[9]
+                    <img src="../images/sg_2.png" class="image-in-paragraph">
+                </div>
+                <div class="paragraph">
+                    Throughout the evolution of the game, there have been different types of shooting guards, mainly categorized as offensive threats and defensive guards. Shooting guards usually know their play style and get better at the qualities they are good at and then teams determine their role on the court.[9] If the shooting guard focuses more on taking perimeter jump shots, especially three-pointers, by the use of basketball screens such as down screens, and without much dribbling involved, then the shooting guard is typically known as a catch-and-shoot type of player; JJ Redick would fit this type of play style. If the shooting guard emphasizes driving into the lane and scoring at (or around) the basket, then the shooting guard is generally referred to as a slasher type of player. Dwyane Wade was well known for his ability to slash into the lane and score around the rim. However, he also took his fair share of mid-range jump shots and three-pointers.[8] These are known as offensive threats.
+                    <img src="../images/sg_3.jfif" class="image-in-paragraph">
+                </div>
+                <div class="paragraph">
+                    If the shooting guard’s main priority is to limit or prevent the opposing team’s star player (which is usually another shooting guard or other perimeter player), then the shooting guard could be known as a defensive specialist. Tony Allen would be considered a defensive specialist. Shooting guards with the ability to shoot from the perimeter while limiting the scoring opportunities of the other team’s best perimeter player can be referred to as the 3-and-D type of players. Danny Green is an example of a 3-and-D type of shooting guard.[8] These are known as defensive guards.
+                    <img src="../images/sg_4.webp" class="image-in-paragraph">
+                </div>
+        </div>
+        
+        <div>
+                <span class="tier-list-header">
+                    <p class="header smaller-header">Tier List of All-time PG</p>
+                    <div id="addCardDiv">
+                        <button id="addCard">+</button>
+                        <p id="addCardText">Add Card</p>
+                    </div>
+                </span>
+                <div id="board">
+                    <div class="row">
+                        <div class="label">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">A</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">B</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">C</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">F</div>
+                    </div>
+                </div>
+                <div id="bank">
+                    <div class="card" id="bryant" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/bryant.jpg"></div>  
+                    <div class="card" id="carter" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/carter.webp"></div> 
+                    <div class="card" id="drexler" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/drexler.webp"></div> 
+                    <div class="card" id="dumars" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/dumars.webp"></div>    
+                    <div class="card" id="gervin" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/gervin.jpg"></div>  
+                    <div class="card" id="ginobili" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/ginobili.webp"></div>  
+                    <div class="card" id="greer" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/greer.jpg"></div>  
+                    <div class="card" id="harden" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/harden.webp"></div>  
+                    <div class="card" id="iverson" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/iverson.webp"></div>  
+                    <div class="card" id="jones" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/jones.webp"></div>  
+                    <div class="card" id="jordan" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/jordan.webp"></div>  
+                    <div class="card" id="mcgrady" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/mcgrady.webp"></div>  
+                    <div class="card" id="miller" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/miller.webp"></div>  
+                    <div class="card" id="thompson" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/thompson.jpg"></div>  
+                    <div class="card" id="wade" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/sg/wade.webp"></div>          
+                </div>
+        </div>
+    </div>
+    <script src="../cards.js"></script>
+    <script src="../rows.js"></script>
+    <script src="../bank.js"></script>
+</body>
+</html>

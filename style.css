@@ -1,0 +1,161 @@
+html{
+    background-color: rgb(29, 29, 29);
+}
+.position-container{
+    border-radius: 2px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between;
+}
+.image-position{
+    width: 300px;
+    transition: all 1s;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.basketball-icon{
+    width: 200px;
+}
+.header-text{
+    position: absolute;
+    top: 75px;
+    left: 47%;
+}
+.a{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 46%;
+    background-image: linear-gradient(90deg, #af4261 0%, 	#800000 35%, #DC143C 100%);
+    background-color: red;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.to{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 49.5%;
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #254dc7 0%, #090979 35%, #0e34a8 100%);
+    background-color: red;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.z{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 52%;
+    background-image: linear-gradient(90deg, #90EE90 0%, #3CB371 35%, #008000 100%);
+    background-color: red;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.position-name{
+    position: absolute;
+    top: 30%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position:hover .image-position{
+    opacity: 0.3;
+}
+.position:hover .position-name{
+    opacity: 1;
+}
+.header{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #af4261 10%, #2424be 35%, #2ceeb4 100%);
+    background-color: red;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    margin: 0;
+    margin-top: 40px;
+}
+.smaller-header{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.all-text{
+    margin-left: 30px;
+    background-color: rgb(39, 39, 39);
+    padding: 40px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 5px 10px 120px rgba(57, 57, 248, 0.1);
+}
+.paragraph{
+    color: rgb(233, 233, 233);
+    width: 600px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    margin-top: 50px;
+}
+.image-in-paragraph{
+    width: 700px;
+    margin-left: 120px;
+    border-radius: 5px;
+}
+.bigger-paragraph{
+    width: 900px;
+    margin-bottom: 30px;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+.history-basketball{
+ width: 900px;
+ margin: auto;
+}
+
+.position-content-container{
+    display: flex;
+
+}

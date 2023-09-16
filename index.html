@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball A to Z</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./tierList.css">
+    <link rel="icon" href="images/basketball_icon.png">
+</head>
+<body>
+    <div class="center icon">
+        <div class="header-container">
+            <img src="images/basketball_icon.png" class="basketball-icon">
+            <p class="a">A</p>
+            <p class="to">to</p>
+            <p class="z">Z</p>
+        </div>
+    </div>
+    
+    <div class="center main-position-div">
+        <div class="position-container">
+            <div class="position point-guard" onclick="window.location='positions/pg.html'">
+                <img src="images/point-guard.png" class="image-position">
+                <p class="position-name">PG</p>
+            </div>
+            <div class="position shooting-guard" onclick="window.location='positions/sg.html'">
+                <img src="images/shooting-guard.png" class="image-position">
+                <p class="position-name">SG</p>
+            </div>
+            <div class="position small-forward" onclick="window.location='positions/sf.html'">
+                <img src="images/small-forward.png" class="image-position">
+                <p class="position-name">SF</p>
+            </div>
+            <div class="position power-forward" onclick="window.location='positions/pf.html'">
+                <img src="images/power-forward.png" class="image-position">
+                <p class="position-name">PF</p>
+            </div>
+            <div class="position center" onclick="window.location='positions/c.html'">
+                <img src="images/center.png" class="image-position">
+                <p class="position-name">C</p>
+            </div>
+        </div>
+    </div>
+    <p class="header">How was basketball invented?</p>
+    <p class="header smaller-header">(all of the information is taken from wikipedia.org)</p>
+    <div class="all-text history-basketball">
+        <div class="paragraph bigger-paragraph flex">
+            <img src="images/JamesNaismith.jpg"> 
+            <p>
+                Basketball began with its invention in 1891 in Springfield, Massachusetts, by Canadian physical education instructor James Naismith as a less injury-prone sport than football. Naismith was a 31-year old graduate student when he created the indoor sport to keep athletes indoors during the winters.[1] The game became established fairly quickly and grew very popular as the 20th century progressed, first in America and then in other parts of the world. After basketball became established in American colleges, the professional game followed. The American National Basketball Association (NBA), established in 1946, grew to a multibillion-dollar enterprise by the end of the century, and basketball became an integral part of American culture.
+            </p>
+        </div>
+        <div class="paragraph bigger-paragraph">
+            The game of basketball as it is known today was created by Dr. James Naismith in December 1891 in Springfield, Massachusetts, to condition young athletes during cold months. Naismith was a physical education instructor at YMCA International Training School (now known as Springfield College) in Springfield, Massachusetts. Upon the request of his boss, Naismith was tasked to create an indoor sports game to help athletes keep in shape in cold weather.[1] It consisted of peach baskets and a soccer style ball. He published 13 rules for the new game. He divided his class of eighteen into two teams of nine players each and set about to teach them the basics of his new game. The objective of the game was to throw the basketball into the fruit baskets nailed to the lower railing of the gym balcony. Every time a point was scored, the game was halted so the janitor could bring out a ladder and retrieve the ball. After a while, the bottoms of the fruit baskets were removed. The first public basketball game was played in Springfield, Massachusetts, on March 11, 1892.
+        </div>
+    </div>
+    <span class="tier-list-header">
+        <p class="header">Tier List of NBA teams</p>
+        <div id="addCardDiv">
+            <button id="addCard">+</button>
+            <p id="addCardText">Add Card</p>
+        </div>
+
+    </span>
+
+    <div id="board">
+        <div class="row">
+            <div class="label">S</div>
+        </div>
+        <div class="row">
+            <div class="label">A</div>
+        </div>
+        <div class="row">
+            <div class="label">B</div>
+        </div>
+        <div class="row">
+            <div class="label">C</div>
+        </div>
+        <div class="row">
+            <div class="label">D</div>
+        </div>
+        <div class="row">
+            <div class="label">F</div>
+        </div>
+    </div>
+    <div id="bank">
+        <div class="card" id="hawks" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/hawks.gif"></div>      
+        <div class="card" id="celtics" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/celtics.gif"></div>      
+        <div class="card" id="nets" draggable="true" onclick="deleteCard();"><img  class="card-image" src="images/nbaTeams/nets.gif"></div>      
+        <div class="card" id="hornets" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/hornets.gif"></div>      
+        <div class="card" id="bulls" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/bulls.gif"></div>      
+        <div class="card" id="cavaliers" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/cavaliers.gif"></div>      
+        <div class="card" id="mavericks" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/mavericks.gif"></div>      
+        <div class="card" id="nuggets" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/nuggets.gif"></div>      
+        <div class="card" id="pistons" draggable="true" onclick="deleteCard();"><img class="card-image" src="images/nbaTeams/pistons.gif"></div>      
+        <div class="card" id="warriors" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/warriors.gif"></div>      
+        <div class="card" id="rockets" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/rockets.gif"></div>      
+        <div class="card" id="pacers" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/pacers.gif"></div>      
+        <div class="card" id="clippers" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/clippers.gif"></div>      
+        <div class="card" id="lakers" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/lakers.gif"></div>      
+        <div class="card" id="grizzlies" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/grizzlies.gif"></div>      
+        <div class="card" id="heat" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/heat.gif"></div>      
+        <div class="card" id="bucks" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/bucks.gif"></div>      
+        <div class="card" id="timberwolves" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/timberwolves.gif"></div>      
+        <div class="card" id="pelicans" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/pelicans.gif"></div>      
+        <div class="card" id="knicks" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/knicks.gif"></div>      
+        <div class="card" id="thunder" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/thunder.gif"></div>      
+        <div class="card" id="magic" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/magic.gif"></div>      
+        <div class="card" id="76ers" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/76ers.gif"></div>      
+        <div class="card" id="suns" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/suns.gif"></div>      
+        <div class="card" id="blazers" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/blazers.gif"></div>      
+        <div class="card" id="kings" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/kings.gif"></div>      
+        <div class="card" id="spurs" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/spurs.gif"></div>      
+        <div class="card" id="raptors" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/raptors.gif"></div>      
+        <div class="card" id="jazz" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/jazz.gif"></div>      
+        <div class="card" id="wizards" draggable="true" onclick="deleteCard();"><img class="card-image"src="images/nbaTeams/wizards.gif"></div>            
+    </div>
+    <script src="./cards.js"></script>
+    <script src="./rows.js"></script>
+    <script src="./bank.js"></script>
+</body>
+</html>

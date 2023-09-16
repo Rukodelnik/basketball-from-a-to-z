@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../tierList.css">
+    <link rel="icon" href="../images/basketball_icon.png">
+</head>
+<body>
+
+    
+    <div class="position-content-container">
+        <div>
+            <p class="header">Center</p>
+            <p class="header smaller-header">(all of the information is taken from wikipedia.org)</p>
+            <div class="all-text">
+                <div class="paragraph">
+                    The center (C)—also known as the five, the pivot or the big man—typically plays near the baseline or close to the basket (the "low post"). They are usually the tallest players on the floor. Centers usually score "down low", or "in the paint" (near the basket, in the key), but there have been many centers who are good perimeter shooters as well. They're typically skilled at pulling down rebounds, contesting shots and setting screens on players. Most big men goals are to create possessions with rebounding and trying to stop the other team from scoring in the paint.[13]
+                    <img src="../images/c_2.png" class="image-in-paragraph">
+                </div>
+                <div class="paragraph">
+                    The range of players used in the position has transitioned from relatively slower but much taller "back to the basket" players to players who could also be classified as power forwards but who can dominate opponents with their defensive skills, or mismatch ability to shoot from the high post. This has been due to the scarcity of players possessing the combination of great skill, ideal height, and durability. The development of more fast-paced and athletic basketball play, which calls for less traditional center play and a more up-and-down-the-court play style has also contributed to the shift over time. In the NBA, they're usually over 6 feet 8 inches (2.03 m) tall.[14]
+                    <img src="../images/c_3.jpeg" class="image-in-paragraph">
+                </div>
+                <div class="paragraph">
+                    The presence of a center who can score in the low post (the area closest to the basket) helps create balance within an offense. Especially, if the big man has the footwork to do moves like drop steps, pivots, and more it can open up the game for their teammates.[13] If it becomes too easy to score from the low post, the center will get double teamed. This creates opportunity for open shots for perimeter players as the center will “kick it out” to an open perimeter or “wing” player. As perimeter players typically shoot better from long range, this may create easier opportunities for a center to score, since defenses often play out closer to the perimeter shooters.[citation needed]
+                    <img src="../images/c_4.jpg" class="image-in-paragraph">
+                </div>
+        </div>
+        
+        <div>
+                <span class="tier-list-header">
+                    <p class="header smaller-header">Tier List of All-time PG</p>
+                    <div id="addCardDiv">
+                        <button id="addCard">+</button>
+                        <p id="addCardText">Add Card</p>
+                    </div>
+                </span>
+                <div id="board">
+                    <div class="row">
+                        <div class="label">S</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">A</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">B</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">C</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">D</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">F</div>
+                    </div>
+                </div>
+                <div id="bank">
+                    <div class="card" id="chamberlain" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/chamberlain.jfif"></div>      
+                    <div class="card" id="ewing" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/ewing.jfif"></div>    
+                    <div class="card" id="howard" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/howard.jfif"></div>    
+                    <div class="card" id="jokic" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/jokic"></div>    
+                    <div class="card" id="kareem" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/kareem.jfif"></div>    
+                    <div class="card" id="mcadoo" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/mcadoo.jfif"></div>    
+                    <div class="card" id="mikan" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/mikan.jfif"></div>    
+                    <div class="card" id="moses" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/moses.jfif"></div>    
+                    <div class="card" id="mutombo" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/mutombo.jfif"></div>    
+                    <div class="card" id="o'neal" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/o'neal.jfif"></div>    
+                    <div class="card" id="olajuwon" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/olajuwon.jfif"></div>    
+                    <div class="card" id="parish" draggable="true" onclick="deleteCard();"><img class="card-image" src="../images/c/parish.jfif"></div>    
+                </div>
+        </div>
+    </div>
+    <script src="../cards.js"></script>
+    <script src="../rows.js"></script>
+    <script src="../bank.js"></script>
+</body>
+</html>
